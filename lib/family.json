@@ -1,0 +1,739 @@
+{
+  "members": [
+    {
+      "id": "1",
+      "name": "Jan Novák",
+      "firstName": "Jan",
+      "lastName": "Novák",
+      "birthYear": 1949,
+      "photo": "/gallery/dad.jpg",
+      "bio": "Patriarch of the Novák family. Founded Novák Construction Group in 1975, building a legacy of excellence in construction, remodeling, and real estate development across Czechia.",
+      "generation": 1,
+      "relationships": {
+        "spouse": "2",
+        "children": ["3", "4", "5"]
+      }
+    },
+    {
+      "id": "2",
+      "name": "Marie Nováková",
+      "firstName": "Marie",
+      "lastName": "Nováková",
+      "birthYear": 1956,
+      "photo": "/gallery/mom.jpg",
+      "bio": "Matriarch and co-founder of Novák Construction Group. Dedicated to humanitarian initiatives and community development. Her vision has shaped the family's commitment to excellence and social responsibility.",
+      "generation": 1,
+      "relationships": {
+        "spouse": "1",
+        "children": ["3", "4", "5"]
+      }
+    },
+    {
+      "id": "3",
+      "name": "Tomáš Novák",
+      "firstName": "Tomáš",
+      "lastName": "Novák",
+      "birthYear": 1985,
+      "photo": "/gallery/tomas.jpg",
+      "bio": "CEO of Novák Construction Group. Leading the family business into the future with innovative construction techniques and sustainable building practices. Passionate about preserving Czech architectural heritage while embracing modern technology.",
+      "generation": 2,
+      "relationships": {
+        "parents": ["1", "2"],
+        "spouse": "6",
+        "children": ["7"]
+      }
+    },
+    {
+      "id": "4",
+      "name": "Eva Nováková",
+      "firstName": "Eva",
+      "lastName": "Nováková",
+      "birthYear": 1988,
+      "photo": "/gallery/eva.jpg",
+      "bio": "Director of Operations at Novák Construction Group. Specializes in project management and client relations. Married to Petr Svoboda, a renowned architect. Together they're raising two wonderful children.",
+      "generation": 2,
+      "relationships": {
+        "parents": ["1", "2"],
+        "spouse": "8",
+        "children": ["9", "10"]
+      }
+    },
+    {
+      "id": "5",
+      "name": "Anna Nováková",
+      "firstName": "Anna",
+      "lastName": "Nováková",
+      "birthYear": 1992,
+      "photo": "/gallery/anna.jpg",
+      "bio": "Head of Human Resources and Community Outreach at Novák Construction Group. Married to Martin Dvořák, a successful entrepreneur. Mother of three active children who keep life exciting.",
+      "generation": 2,
+      "relationships": {
+        "parents": ["1", "2"],
+        "spouse": "11",
+        "children": ["12", "13", "14"]
+      }
+    },
+    {
+      "id": "6",
+      "name": "Lucie Nováková",
+      "firstName": "Lucie",
+      "lastName": "Nováková",
+      "birthYear": 1987,
+      "photo": "/gallery/lucie.jpg",
+      "bio": "Beloved wife and mother. A talented interior designer who brought beauty and warmth to every space she touched. Her memory lives on through her daughter and the countless lives she touched.",
+      "generation": 2,
+      "relationships": {
+        "spouse": "3",
+        "children": ["7"]
+      },
+      "alive": false
+    },
+    {
+      "id": "7",
+      "name": "Sofie Nováková",
+      "firstName": "Sofie",
+      "lastName": "Nováková",
+      "birthYear": 2015,
+      "photo": "/gallery/sofie.jpg",
+      "bio": "Bright and creative daughter. Loves art, music, and spending time with her extended family. Carries forward her mother's artistic spirit and her father's determination.",
+      "generation": 3,
+      "relationships": {
+        "parents": ["3", "6"]
+      }
+    },
+    {
+      "id": "8",
+      "name": "Petr Svoboda",
+      "firstName": "Petr",
+      "lastName": "Svoboda",
+      "birthYear": 1986,
+      "photo": "/gallery/petr.jpg",
+      "bio": "Award-winning architect specializing in sustainable design and Czech modernism. Partner at Svoboda Architects, known for innovative residential and commercial projects across Prague and Central Europe.",
+      "generation": 2,
+      "relationships": {
+        "spouse": "4",
+        "children": ["9", "10"]
+      }
+    },
+    {
+      "id": "9",
+      "name": "Jakub Svoboda",
+      "firstName": "Jakub",
+      "lastName": "Svoboda",
+      "birthYear": 2016,
+      "photo": "/gallery/jakub.jpg",
+      "bio": "Energetic and curious son. Enjoys building things, playing football, and exploring Prague with his family. Shows early interest in architecture and construction.",
+      "generation": 3,
+      "relationships": {
+        "parents": ["4", "8"]
+      }
+    },
+    {
+      "id": "10",
+      "name": "Tereza Svobodová",
+      "firstName": "Tereza",
+      "lastName": "Svobodová",
+      "birthYear": 2019,
+      "photo": "/gallery/tereza.jpg",
+      "bio": "Youngest daughter, full of energy and laughter. Loves dancing, drawing, and playing with her cousins. Brings joy to every family gathering.",
+      "generation": 3,
+      "relationships": {
+        "parents": ["4", "8"]
+      }
+    },
+    {
+      "id": "11",
+      "name": "Martin Dvořák",
+      "firstName": "Martin",
+      "lastName": "Dvořák",
+      "birthYear": 1990,
+      "photo": "/gallery/martin.jpg",
+      "bio": "Successful tech entrepreneur and investor. Founder of Dvořák Ventures, focusing on sustainable technology solutions. Passionate about innovation and supporting Czech startups.",
+      "generation": 2,
+      "relationships": {
+        "spouse": "5",
+        "children": ["12", "13", "14"]
+      }
+    },
+    {
+      "id": "12",
+      "name": "Matěj Dvořák",
+      "firstName": "Matěj",
+      "lastName": "Dvořák",
+      "birthYear": 2017,
+      "photo": "/gallery/matej.jpg",
+      "bio": "Tech-savvy and creative. Loves coding, robotics, and building with LEGO. Always curious about how things work and eager to learn new skills.",
+      "generation": 3,
+      "relationships": {
+        "parents": ["5", "11"]
+      }
+    },
+    {
+      "id": "13",
+      "name": "Emma Dvořáková",
+      "firstName": "Emma",
+      "lastName": "Dvořáková",
+      "birthYear": 2019,
+      "photo": "/gallery/emma.jpg",
+      "bio": "Artistic and expressive. Enjoys painting, reading, and performing in school plays. Has a natural talent for storytelling and making friends.",
+      "generation": 3,
+      "relationships": {
+        "parents": ["5", "11"]
+      }
+    },
+    {
+      "id": "14",
+      "name": "Oliver Dvořák",
+      "firstName": "Oliver",
+      "lastName": "Dvořák",
+      "birthYear": 2021,
+      "photo": "/gallery/oliver.jpg",
+      "bio": "Youngest of the Dvořák children. Full of energy and always exploring. Loves animals, music, and playing with his siblings and cousins.",
+      "generation": 3,
+      "relationships": {
+        "parents": ["5", "11"]
+      }
+    }
+  ],
+  "businesses": [
+    {
+      "id": "1",
+      "name": "Novák Construction Group",
+      "logo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=400&h=300&fit=crop&auto=format",
+      "description": "Leading construction and remodeling company in Czechia, specializing in residential and commercial projects. Founded in 1975, we combine traditional Czech craftsmanship with modern building techniques. Our expertise spans new construction, historic renovations, and sustainable building practices.",
+      "industry": "Construction & Remodeling",
+      "yearFounded": 1975,
+      "images": [
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1504307651254-35680f293057?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1504303391373-a6172b70691f?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800&h=600&fit=crop&auto=format"
+      ],
+      "services": [
+        "Residential Construction",
+        "Commercial Construction",
+        "Historic Building Renovation",
+        "Interior Remodeling",
+        "Sustainable Building Solutions",
+        "Project Management"
+      ],
+      "achievements": [
+        "Over 500 completed projects across Czechia",
+        "Award-winning historic preservation work",
+        "LEED-certified sustainable building practices",
+        "Trusted partner for luxury residential developments"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Novák HVAC Solutions",
+      "logo": "https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=400&h=300&fit=crop&auto=format",
+      "description": "Specialized HVAC (Heating, Ventilation, and Air Conditioning) services for residential and commercial properties. We provide energy-efficient climate control solutions, maintenance, and installation services. Our team ensures optimal indoor air quality and comfort year-round.",
+      "industry": "HVAC Services",
+      "yearFounded": 1990,
+      "images": [
+        "https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&h=600&fit=crop&auto=format"
+      ],
+      "services": [
+        "HVAC Installation",
+        "System Maintenance & Repair",
+        "Energy Efficiency Consulting",
+        "Indoor Air Quality Solutions",
+        "Smart Home Climate Control",
+        "Emergency Service"
+      ],
+      "achievements": [
+        "Certified by major HVAC manufacturers",
+        "24/7 emergency service availability",
+        "Energy savings up to 40% for clients",
+        "Expertise in both traditional and smart systems"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Novák Real Estate",
+      "logo": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=400&h=300&fit=crop&auto=format",
+      "description": "Premium real estate development and property management company. We develop, manage, and maintain residential and commercial properties across Czechia. Our portfolio includes luxury apartments, office buildings, and mixed-use developments in prime locations.",
+      "industry": "Real Estate Development",
+      "yearFounded": 2000,
+      "images": [
+        "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1568605117032-2721c65b1c0e?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1568605117032-2721c65b1c0e?q=80&w=800&h=600&fit=crop&auto=format"
+      ],
+      "services": [
+        "Property Development",
+        "Real Estate Investment",
+        "Property Management",
+        "Commercial Leasing",
+        "Residential Sales",
+        "Property Valuation"
+      ],
+      "achievements": [
+        "Portfolio of 50+ properties",
+        "Prime locations in Prague and major cities",
+        "High tenant satisfaction rates",
+        "Sustainable building certifications"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Novák Humanitarian Foundation",
+      "logo": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?q=80&w=400&h=300&fit=crop&auto=format",
+      "description": "Non-profit organization dedicated to supporting communities in need across Czechia and Central Europe. We focus on housing assistance, education programs, disaster relief, and supporting vulnerable families. Our mission is to build stronger communities through compassion and action.",
+      "industry": "Non-Profit / Humanitarian",
+      "yearFounded": 2010,
+      "images": [
+        "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1509099863731-ef4bff19e808?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1509099863731-ef4bff19e808?q=80&w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?q=80&w=800&h=600&fit=crop&auto=format"
+      ],
+      "services": [
+        "Housing Assistance Programs",
+        "Educational Scholarships",
+        "Disaster Relief",
+        "Community Development",
+        "Family Support Services",
+        "Volunteer Coordination"
+      ],
+      "achievements": [
+        "Helped 1,000+ families find housing",
+        "Provided scholarships to 500+ students",
+        "Responded to 20+ disaster situations",
+        "Volunteer network of 200+ dedicated individuals"
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "id": "1",
+      "url": "/gallery/dad.jpg",
+      "alt": "Jan Novák - Family Patriarch",
+      "generation": 1,
+      "event": "Family Portrait"
+    },
+    {
+      "id": "2",
+      "url": "/gallery/mom.jpg",
+      "alt": "Marie Nováková - Family Matriarch",
+      "generation": 1,
+      "event": "Family Portrait"
+    },
+    {
+      "id": "3",
+      "url": "/gallery/tomas.jpg",
+      "alt": "Tomáš Novák - CEO",
+      "generation": 2,
+      "event": "Professional Portrait"
+    },
+    {
+      "id": "4",
+      "url": "/gallery/eva.jpg",
+      "alt": "Eva Nováková - Director of Operations",
+      "generation": 2,
+      "event": "Professional Portrait"
+    },
+    {
+      "id": "5",
+      "url": "/gallery/anna.jpg",
+      "alt": "Anna Nováková - Head of HR",
+      "generation": 2,
+      "event": "Professional Portrait"
+    },
+    {
+      "id": "6",
+      "url": "/gallery/lucie.jpg",
+      "alt": "Lucie Nováková - In Memory",
+      "generation": 2,
+      "event": "Family Memory"
+    },
+    {
+      "id": "7",
+      "url": "/gallery/sofie.jpg",
+      "alt": "Sofie Nováková - Daughter",
+      "generation": 3,
+      "event": "Family Portrait"
+    },
+    {
+      "id": "8",
+      "url": "/gallery/petr.jpg",
+      "alt": "Petr Svoboda - Architect",
+      "generation": 2,
+      "event": "Professional Portrait"
+    },
+    {
+      "id": "9",
+      "url": "/gallery/jakub.jpg",
+      "alt": "Jakub Svoboda - Son",
+      "generation": 3,
+      "event": "Family Portrait"
+    },
+    {
+      "id": "10",
+      "url": "/gallery/tereza.jpg",
+      "alt": "Tereza Svobodová - Daughter",
+      "generation": 3,
+      "event": "Family Portrait"
+    },
+    {
+      "id": "11",
+      "url": "/gallery/martin.jpg",
+      "alt": "Martin Dvořák - Entrepreneur",
+      "generation": 2,
+      "event": "Professional Portrait"
+    },
+    {
+      "id": "12",
+      "url": "/gallery/matej.jpg",
+      "alt": "Matěj Dvořák - Son",
+      "generation": 3,
+      "event": "Family Portrait"
+    },
+    {
+      "id": "13",
+      "url": "/gallery/emma.jpg",
+      "alt": "Emma Dvořáková - Daughter",
+      "generation": 3,
+      "event": "Family Portrait"
+    },
+    {
+      "id": "14",
+      "url": "/gallery/oliver.jpg",
+      "alt": "Oliver Dvořák - Son",
+      "generation": 3,
+      "event": "Family Portrait"
+    },
+    {
+      "id": "15",
+      "url": "/gallery/family-reunion-2024.jpg",
+      "alt": "Family Reunion 2024",
+      "generation": null,
+      "event": "Annual Reunion"
+    },
+    {
+      "id": "16",
+      "url": "/gallery/christmas-2023.jpg",
+      "alt": "Christmas Celebration 2023",
+      "generation": null,
+      "event": "Christmas"
+    },
+    {
+      "id": "17",
+      "url": "/gallery/wedding-eva-petr.jpg",
+      "alt": "Eva and Petr's Wedding",
+      "generation": 2,
+      "event": "Wedding"
+    },
+    {
+      "id": "18",
+      "url": "/gallery/wedding-anna-martin.jpg",
+      "alt": "Anna and Martin's Wedding",
+      "generation": 2,
+      "event": "Wedding"
+    },
+    {
+      "id": "19",
+      "url": "/gallery/kids-playing.jpg",
+      "alt": "Kids Playing Together",
+      "generation": 3,
+      "event": "Family Gathering"
+    },
+    {
+      "id": "20",
+      "url": "/gallery/grandparents-kids.jpg",
+      "alt": "Grandparents with Grandchildren",
+      "generation": null,
+      "event": "Family Gathering"
+    },
+    {
+      "id": "21",
+      "url": "/gallery/business-meeting.jpg",
+      "alt": "Family Business Meeting",
+      "generation": null,
+      "event": "Business"
+    },
+    {
+      "id": "22",
+      "url": "/gallery/construction-site.jpg",
+      "alt": "Construction Site Visit",
+      "generation": null,
+      "event": "Business"
+    },
+    {
+      "id": "23",
+      "url": "/gallery/humanitarian-event.jpg",
+      "alt": "Humanitarian Foundation Event",
+      "generation": null,
+      "event": "Philanthropy"
+    },
+    {
+      "id": "24",
+      "url": "/gallery/prague-family-day.jpg",
+      "alt": "Family Day in Prague",
+      "generation": null,
+      "event": "Family Gathering"
+    }
+  ],
+  "blog": [
+    {
+      "slug": "family-reunion-2024",
+      "title": "Annual Family Reunion 2024",
+      "excerpt": "A beautiful gathering of all three generations at our family estate in Prague.",
+      "category": "Announcements",
+      "date": "2024-06-15",
+      "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1200&h=600&fit=crop&auto=format",
+      "images": [
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=1200&h=600&fit=crop&auto=format"
+      ],
+      "author": "Marie Nováková",
+      "content": "This year's family reunion brought together all three generations for a weekend of celebration, reflection, and connection. The event featured traditional Czech family activities, shared meals, and meaningful conversations about our heritage and future. The children enjoyed games and activities while the adults discussed family business developments and humanitarian initiatives."
+    },
+    {
+      "slug": "new-construction-project",
+      "title": "Launching Major Construction Project in Prague",
+      "excerpt": "Novák Construction Group announces a new sustainable residential development in Prague's historic district.",
+      "category": "Business",
+      "date": "2024-05-20",
+      "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1200&h=600&fit=crop&auto=format",
+      "images": [
+        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1504307651254-35680f293057?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1504303391373-a6172b70691f?q=80&w=1200&h=600&fit=crop&auto=format"
+      ],
+      "author": "Tomáš Novák",
+      "content": "We are proud to announce the launch of our largest sustainable residential development project to date. Located in Prague's historic district, this project combines traditional Czech architecture with modern green building technologies. The development will feature 150 luxury apartments, commercial spaces, and extensive green areas, all designed to LEED Platinum standards."
+    },
+    {
+      "slug": "humanitarian-initiative-2024",
+      "title": "Expanding Humanitarian Foundation Programs",
+      "excerpt": "The Novák Humanitarian Foundation announces new programs supporting housing and education in underserved communities.",
+      "category": "Philanthropy",
+      "date": "2024-04-10",
+      "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&h=600&fit=crop&auto=format",
+      "images": [
+        "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1509099863731-ef4bff19e808?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1559027615-cd4628902d4a?q=80&w=1200&h=600&fit=crop&auto=format"
+      ],
+      "author": "Anna Nováková",
+      "content": "This year, the Novák Humanitarian Foundation is expanding its reach with new programs focused on housing assistance and educational scholarships. We're launching a partnership with local schools to provide scholarships to 100 students, and our housing assistance program will help 50 families find safe, affordable housing. These initiatives reflect our family's long-standing commitment to giving back to our community."
+    },
+    {
+      "slug": "generation-milestone",
+      "title": "Celebrating Third Generation Milestones",
+      "excerpt": "Marking important milestones as the third generation grows and thrives.",
+      "category": "Milestones",
+      "date": "2024-03-15",
+      "image": "https://images.unsplash.com/photo-1515378791036-0468c85672c2?q=80&w=1200&h=600&fit=crop&auto=format",
+      "images": [
+        "https://images.unsplash.com/photo-1515378791036-0468c85672c2?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=1200&h=600&fit=crop&auto=format"
+      ],
+      "author": "Eva Nováková",
+      "content": "This year marks significant milestones for our third generation. From school achievements to new interests and talents, we celebrate each child's unique journey. The family legacy continues to grow through these young members, who bring fresh perspectives and energy to everything we do."
+    },
+    {
+      "slug": "historic-renovation-prague-2023",
+      "title": "Historic Building Renovation Project Completed in Prague",
+      "excerpt": "Successfully restored a 19th-century building in Prague's Old Town, preserving its architectural heritage while adding modern amenities.",
+      "category": "Business",
+      "date": "2023-11-20",
+      "image": "https://images.unsplash.com/photo-1504307651254-35680f293057?q=80&w=1200&h=600&fit=crop&auto=format",
+      "images": [
+        "https://images.unsplash.com/photo-1504307651254-35680f293057?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1504303391373-a6172b70691f?q=80&w=1200&h=600&fit=crop&auto=format"
+      ],
+      "author": "Tomáš Novák",
+      "content": "After two years of meticulous restoration work, we are proud to announce the completion of our historic building renovation project in Prague's Old Town. This 19th-century structure has been carefully restored to preserve its original architectural features while incorporating modern energy-efficient systems and contemporary amenities. The project received recognition from the Czech Heritage Foundation for excellence in historic preservation."
+    },
+    {
+      "slug": "hvac-energy-efficiency-2023",
+      "title": "HVAC Solutions Achieves 40% Energy Savings Milestone",
+      "excerpt": "Our innovative HVAC systems have helped clients reduce energy consumption by an average of 40%, contributing to sustainability goals.",
+      "category": "Business",
+      "date": "2023-09-10",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1200&h=600&fit=crop&auto=format",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200&h=600&fit=crop&auto=format"
+      ],
+      "author": "Eva Nováková",
+      "content": "Novák HVAC Solutions has reached a significant milestone in energy efficiency. Our smart climate control systems, combined with advanced maintenance programs, have enabled our clients to reduce their energy consumption by an average of 40%. This achievement reflects our commitment to sustainable technology and environmental responsibility. We continue to invest in research and development to push the boundaries of energy-efficient climate control."
+    },
+    {
+      "slug": "real-estate-portfolio-expansion-2023",
+      "title": "Real Estate Portfolio Expands to 50 Properties",
+      "excerpt": "Novák Real Estate reaches a major milestone with 50 properties in prime locations across Czechia.",
+      "category": "Business",
+      "date": "2023-07-05",
+      "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1200&h=600&fit=crop&auto=format",
+      "images": [
+        "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1568605117032-2721c65b1c0e?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=1200&h=600&fit=crop&auto=format"
+      ],
+      "author": "Tomáš Novák",
+      "content": "Novák Real Estate has achieved a significant milestone with our portfolio now comprising 50 properties across Czechia. These include luxury residential developments, commercial office spaces, and mixed-use properties in prime locations throughout Prague and other major cities. Our focus on sustainable development and tenant satisfaction has contributed to our continued growth and success in the real estate market."
+    },
+    {
+      "slug": "scholarship-program-launch-2023",
+      "title": "Launching Educational Scholarship Program for 100 Students",
+      "excerpt": "The Novák Humanitarian Foundation announces a new scholarship program supporting students from underserved communities.",
+      "category": "Philanthropy",
+      "date": "2023-05-15",
+      "image": "https://images.unsplash.com/photo-1509099863731-ef4bff19e808?q=80&w=1200&h=600&fit=crop&auto=format",
+      "images": [
+        "https://images.unsplash.com/photo-1509099863731-ef4bff19e808?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=1200&h=600&fit=crop&auto=format"
+      ],
+      "author": "Anna Nováková",
+      "content": "The Novák Humanitarian Foundation is proud to launch our new educational scholarship program, which will provide financial support to 100 students from underserved communities across Czechia. The program focuses on students pursuing higher education in fields related to construction, engineering, business, and social work. We believe that education is the foundation for building stronger communities and creating lasting positive change."
+    },
+    {
+      "slug": "christmas-celebration-2023",
+      "title": "Family Christmas Celebration 2023",
+      "excerpt": "A heartwarming celebration bringing together all three generations for the holidays.",
+      "category": "Milestones",
+      "date": "2023-12-24",
+      "image": "https://images.unsplash.com/photo-1482517967863-00e15c9b44be?q=80&w=1200&h=600&fit=crop&auto=format",
+      "images": [
+        "https://images.unsplash.com/photo-1482517967863-00e15c9b44be?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1512389142860-9c449e58a543?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=1200&h=600&fit=crop&auto=format"
+      ],
+      "author": "Marie Nováková",
+      "content": "Our annual Christmas celebration was a beautiful gathering of all three generations. The evening featured traditional Czech Christmas customs, a festive dinner, and the exchange of gifts. The children performed a small concert, and we shared stories of past holidays and family traditions. It was a reminder of the importance of family bonds and the joy that comes from being together."
+    },
+    {
+      "slug": "construction-award-2023",
+      "title": "Novák Construction Group Wins Heritage Preservation Award",
+      "excerpt": "Recognized for excellence in historic building restoration and preservation of Czech architectural heritage.",
+      "category": "Business",
+      "date": "2023-04-18",
+      "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1200&h=600&fit=crop&auto=format",
+      "images": [
+        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1504307651254-35680f293057?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&h=600&fit=crop&auto=format"
+      ],
+      "author": "Tomáš Novák",
+      "content": "Novák Construction Group has been honored with the Czech Heritage Preservation Award for our outstanding work in restoring historic buildings. This recognition reflects our commitment to preserving Czech architectural heritage while integrating modern technologies. The award specifically recognized our restoration of a 19th-century building in Prague's Old Town, which now serves as a model for sustainable historic preservation."
+    },
+    {
+      "slug": "housing-assistance-milestone-2023",
+      "title": "1,000 Families Helped Through Housing Assistance Program",
+      "excerpt": "The Humanitarian Foundation reaches a major milestone in supporting families in need.",
+      "category": "Philanthropy",
+      "date": "2023-02-28",
+      "image": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?q=80&w=1200&h=600&fit=crop&auto=format",
+      "images": [
+        "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1509099863731-ef4bff19e808?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1559027615-cd4628902d4a?q=80&w=1200&h=600&fit=crop&auto=format"
+      ],
+      "author": "Anna Nováková",
+      "content": "The Novák Humanitarian Foundation has reached a significant milestone, having helped over 1,000 families find safe and affordable housing across Czechia. Our housing assistance program provides support through partnerships with local governments, housing organizations, and community groups. This achievement represents years of dedicated work and the collective effort of our team and volunteers."
+    },
+    {
+      "slug": "sofie-art-exhibition-2023",
+      "title": "Sofie Nováková's Art Exhibition Opens in Prague",
+      "excerpt": "The youngest generation showcases artistic talent with a debut exhibition at a prestigious gallery.",
+      "category": "Milestones",
+      "date": "2023-01-20",
+      "image": "https://images.unsplash.com/photo-1515378791036-0468c85672c2?q=80&w=1200&h=600&fit=crop&auto=format",
+      "images": [
+        "https://images.unsplash.com/photo-1515378791036-0468c85672c2?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1529626465613-d8a6922e3172?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?q=80&w=1200&h=600&fit=crop&auto=format"
+      ],
+      "author": "Tomáš Novák",
+      "content": "We are incredibly proud to announce that Sofie Nováková, our youngest family member, has opened her first art exhibition at a prestigious gallery in Prague. The exhibition, titled 'Echoes of Heritage,' features her work exploring themes of family, tradition, and identity. The opening reception was attended by family, friends, and art enthusiasts, and the collection has received positive reviews from critics."
+    },
+    {
+      "slug": "new-year-celebration-2024",
+      "title": "Welcoming 2024 with Family Traditions",
+      "excerpt": "Celebrating the new year with traditional Czech customs and family togetherness.",
+      "category": "Milestones",
+      "date": "2024-01-01",
+      "image": "https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=1200&h=600&fit=crop&auto=format",
+      "images": [
+        "https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1512389142860-9c449e58a543?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1200&h=600&fit=crop&auto=format"
+      ],
+      "author": "Marie Nováková",
+      "content": "We welcomed 2024 with a traditional Czech New Year celebration at our family home. The evening included traditional foods, music, and the sharing of hopes and goals for the coming year. As we look ahead, we are grateful for our family's continued growth, the success of our businesses, and the opportunity to make a positive impact in our community."
+    },
+    {
+      "slug": "sustainable-building-certification-2023",
+      "title": "LEED Platinum Certification for New Development",
+      "excerpt": "Our latest residential development achieves the highest level of sustainable building certification.",
+      "category": "Business",
+      "date": "2023-08-12",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&h=600&fit=crop&auto=format",
+      "images": [
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1504303391373-a6172b70691f?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&h=600&fit=crop&auto=format"
+      ],
+      "author": "Tomáš Novák",
+      "content": "Novák Construction Group has achieved LEED Platinum certification for our newest residential development in Prague. This prestigious certification recognizes our commitment to sustainable building practices, including energy efficiency, water conservation, and use of environmentally friendly materials. The development features solar panels, rainwater collection systems, and green roofs, setting a new standard for sustainable construction in Czechia."
+    },
+    {
+      "slug": "volunteer-network-expansion-2023",
+      "title": "Humanitarian Foundation Volunteer Network Grows to 200+",
+      "excerpt": "Our community of dedicated volunteers continues to expand, enabling greater impact across Czechia.",
+      "category": "Philanthropy",
+      "date": "2023-06-30",
+      "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&h=600&fit=crop&auto=format",
+      "images": [
+        "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1559027615-cd4628902d4a?q=80&w=1200&h=600&fit=crop&auto=format"
+      ],
+      "author": "Anna Nováková",
+      "content": "The Novák Humanitarian Foundation's volunteer network has grown to over 200 dedicated individuals across Czechia. These volunteers contribute their time and expertise to support our various programs, from housing assistance to educational initiatives. Their commitment and passion are essential to our mission of building stronger communities. We are grateful for each volunteer who joins us in making a difference."
+    },
+    {
+      "slug": "family-business-anniversary-2023",
+      "title": "Celebrating 48 Years of Family Business Excellence",
+      "excerpt": "Marking nearly five decades of building excellence and community impact.",
+      "category": "Announcements",
+      "date": "2023-10-15",
+      "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1200&h=600&fit=crop&auto=format",
+      "images": [
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=1200&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=1200&h=600&fit=crop&auto=format"
+      ],
+      "author": "Jan Novák",
+      "content": "This year marks 48 years since the founding of Novák Construction Group. What started as a small family business has grown into a respected enterprise with multiple divisions and a legacy of excellence. We are proud of our journey and grateful for the trust of our clients, the dedication of our team, and the support of our community. As we approach our 50th anniversary, we remain committed to our founding values of quality, integrity, and service."
+    }
+  ]
+}
