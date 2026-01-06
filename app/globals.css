@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary Colors - Vibrant Cyan/Teal */
+    --primary: 185 70% 70%;
+    --primary-foreground: 185 30% 15%;
+    --primary-dark: 185 70% 60%;
+    --primary-light: 185 70% 85%;
+
+    /* Secondary Colors - Soft Mint/Green */
+    --secondary: 120 30% 97%;
+    --secondary-foreground: 120 20% 25%;
+    --secondary-dark: 120 30% 90%;
+
+    /* Accent Colors - Warm Coral/Red */
+    --accent: 0 75% 70%;
+    --accent-foreground: 0 30% 15%;
+    --accent-dark: 0 75% 60%;
+    --accent-light: 0 75% 85%;
+
+    /* Background Colors */
+    --background: 0 0% 100%;
+    --foreground: 210 20% 25%;
+
+    /* Muted Colors */
+    --muted: 210 10% 96%;
+    --muted-foreground: 210 10% 45%;
+
+    /* Border & Card */
+    --border: 210 10% 90%;
+    --card: 0 0% 100%;
+    --card-foreground: 210 20% 25%;
+
+    /* Radius */
+    --radius: 1rem;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.12);
+    --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.16);
+    --shadow-xl: 0 12px 40px rgba(0, 0, 0, 0.2);
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(185, 70%, 70%) 0%, hsl(200, 70%, 60%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(0, 75%, 70%) 0%, hsl(15, 75%, 65%) 100%);
+    --gradient-soft: linear-gradient(135deg, hsl(120, 30%, 97%) 0%, hsl(150, 30%, 95%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(185, 70%, 70%) 0%, hsl(200, 70%, 60%) 50%, hsl(0, 75%, 70%) 100%);
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-inter), sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-cormorant), serif;
+    @apply font-semibold;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .glass {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .glass-dark {
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .gradient-accent {
+    background: var(--gradient-accent);
+  }
+
+  .gradient-soft {
+    background: var(--gradient-soft);
+  }
+
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .glow-effect {
+    box-shadow: 0 0 20px rgba(146, 220, 229, 0.5), 0 0 40px rgba(146, 220, 229, 0.3);
+  }
+
+  .glow-effect-accent {
+    box-shadow: 0 0 20px rgba(255, 107, 107, 0.5), 0 0 40px rgba(255, 107, 107, 0.3);
+  }
+
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px];
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-muted;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary-dark));
+}
+
